@@ -1,0 +1,21 @@
+<view class="mge-img">
+  <image src="{{init_image}}"></image>
+</view>
+
+<view class="empty_view">
+<text selectable='true'> 预测结果：{{result}} </text>
+</view>
+
+<view class="mge_button">
+  <button  bindtap="imgSelect" type="primary"><image src="https://s1.aigei.com/src/img/png/f0/f095689c40174f45a528e03c01d44748.png?imageMogr2/auto-orient/thumbnail/!240x240r/gravity/Center/crop/240x240/quality/85/&e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:-QjEYJEhOeZqBCxZbVWyG7eY-0U=">
+  </image>
+  <text class="text_1">选择图片</text>
+  </button>
+  <button type="warn" bindtap="plant" ><image src="https://s1.aigei.com/src/img/png/0f/0faf1f1795bb4b2ab36e0d0fa56d8b4d.png?imageMogr2/auto-orient/thumbnail/!240x240r/gravity/Center/crop/240x240/quality/85/&e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:CxBKBYSQhvnDSiV_pwBoDA0PTnU=">
+  </image>
+  <text class="text_2">手势识别</text>
+  </button>
+</view>
+
+
+
